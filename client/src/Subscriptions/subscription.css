@@ -1,0 +1,154 @@
+.linkDecoration
+{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(204, 200, 200);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.membersDiv
+{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: 5px; */
+    border: solid rgb(10, 144, 197) 4px;
+    width: auto;
+    border-radius: 7px;
+}
+
+.button:hover {
+    background-color: #96e799; 
+    color: white;
+  }
+  .buttonGreen{
+    background-color: #4CAF50; 
+    border: none; 
+    border-radius: 5px;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .containerEditMember
+  {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 400px;
+  }
+
+  .moviesWatchedMain
+  {
+    border: rgb(13, 143, 230) solid 2px;
+    width: auto;
+    border-radius: 5px;
+    box-shadow: 2px 3px 18px #888888;
+    padding-bottom: 10px;
+    padding-left: 5px;
+   margin-left: 5px;
+    margin-right: 7px;
+    margin-top: 10px;
+  }
+
+  .moviesWatchedButton
+  {
+    background-color: #4CAF50; 
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+  }
+  .wrappenForAddingNewSubMovie
+  {
+    border: rgb(7, 97, 4) solid 5px;
+    width: auto;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: rgb(162, 219, 221);
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .addSubMovieMain
+  {
+    display: grid;
+    
+
+  }
+
+  .inputForAddMovieSub
+  {
+    width:40%;
+    height: 40px;
+    margin-top: 0;
+    border-radius: 5px;
+  }
+
+  .subscriptionsDiv
+  {
+    border: solid black 2px;
+    width: auto;
+    padding-bottom: 20px;
+  }
+
+  .nameDiv 
+  {
+    font-weight: bold;
+    background-color: rgb(85, 197, 200);
+    padding-left: 20px;
+    font-size: 30px;
+    
+  }
+
+  .emailAndCityDiv
+  {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .wrapperForAddMemberPictureAndForm
+  {
+    display: grid;
+    grid-template-columns: 50% 10% 40%;
+    
+  }
+
+  .containerForAddMember
+  {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+     padding: 20px;
+  }
+
+  .imageForAddingMember
+  {
+    height: 100%;
+    width: 70%;
+    
+  }
+
+  .wrapperForAllMembers
+  {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    column-gap:  10px ;
+    
+  }

@@ -1,0 +1,61 @@
+.wrapperForAllMembers
+  {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 10px;
+    column-gap:  10px ;
+    
+  }
+
+  
+.membersDiv
+{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    /* padding-left: 5px; */
+    border: solid rgb(10, 144, 197) 4px;
+    width: auto;
+    border-radius: 7px;
+}
+
+.nameDiv 
+{
+  font-weight: bold;
+  background-color: rgb(85, 197, 200);
+  padding-left: 20px;
+  font-size: 30px;
+  
+}
+
+.emailAndCityDiv
+  {
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .wrapperForAddMemberPictureAndForm
+  {
+    display: grid;
+    grid-template-columns: 50% 10% 40%;
+    
+  }
+
+  .button:hover {
+    background-color: #96e799; 
+    color: white;
+  }
+  .buttonGreen{
+    background-color: #4CAF50; 
+    border: none; 
+    border-radius: 5px;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }

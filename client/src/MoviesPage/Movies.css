@@ -1,0 +1,14 @@
+.main {
+    border: 2px solid black;
+    width: auto;
+    padding-bottom: 20px;
+}
+
+.linkDecoration
+{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(204, 200, 200);
+    border-radius: 5px;
+    padding: 5px;
+}
