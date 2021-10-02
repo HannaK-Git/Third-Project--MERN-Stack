@@ -23,7 +23,7 @@ const SubWatchedComp = (props) => {
                 props.moviesData.map((item, index) =>
                 { 
                    return <li style={{ fontSize : '20px', listStyleType: 'none'}} key={index}> 
-                   <Link style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}} to={`member/${item._id}`}> 
+                   <Link style={{textDecoration: 'none', color: 'black', fontWeight: 'bold'}} to={`/home/member/${item._id}`}> 
                        <FaUserAlt fontSize='20px'/> {item.fullName}, 
                        </Link>  
 

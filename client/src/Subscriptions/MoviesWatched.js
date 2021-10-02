@@ -44,7 +44,7 @@ const MoviesWatchedComp = (props) => {
                     
                    return <li key={index} style={{ fontSize : '20px', listStyleType: 'none'}}> < FaVideo/> {item.movieId.map((item2, index)=>
                    {
-                       return <Link to={`movie/${item2._id}`} key ={index} > {item2.name}</Link>
+                       return <Link to={`/subscription/movie/${item2._id}`} key ={index} > {item2.name}</Link>
                    })},  {moment(item.data).format("DD/MM/YYYY")} 
                     
                     </li>
